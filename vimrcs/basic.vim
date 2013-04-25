@@ -85,9 +85,11 @@ endif
 
 "Always show current position
 set ruler
+" And line numbers
+set number
 
 " Height of the command bar
-set cmdheight=2
+"set cmdheight=2
 
 " A buffer becomes hidden when it is abandoned
 set hid
@@ -348,7 +350,9 @@ map <leader>q :e ~/buffer<cr>
 
 " Toggle paste mode on and off
 map <leader>pp :setlocal paste!<cr>
-
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode 
 
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""

@@ -5,3 +5,6 @@
 [submodule "sources_non_forked/syntastic"]
 	path = sources_non_forked/syntastic
 	url = http://github.com/scrooloose/syntastic.git
+[submodule "sources_non_forked/scons"]
+	path = sources_non_forked/scons
+	url = http://github.com/vim-scripts/scons.vim/
