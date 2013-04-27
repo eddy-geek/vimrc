@@ -8,3 +8,18 @@
 [submodule "sources_non_forked/scons"]
 	path = sources_non_forked/scons
 	url = http://github.com/vim-scripts/scons.vim/
+[submodule "sources_non_forked/self"]
+	path = sources_non_forked/self
+	url = http://github.com/megaannum/self.git
+[submodule "sources_non_forked/forms"]
+	path = sources_non_forked/forms
+	url = http://github.com/megaannum/forms.git
+[submodule "sources_non_forked/vimproc"]
+	path = sources_non_forked/vimproc
+	url = http://github.com/Shougo/vimproc.git
+[submodule "sources_non_forked/vimshell"]
+	path = sources_non_forked/vimshell
+	url = http://github.com/Shougo/vimshell.git
+[submodule "sources_non_forked/vimside"]
+	path = sources_non_forked/vimside
+	url = http://github.com/megaannum/vimside.git
