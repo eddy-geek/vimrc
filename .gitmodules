@@ -11,9 +11,11 @@
 [submodule "sources_non_forked/self"]
 	path = sources_non_forked/self
 	url = http://github.com/megaannum/self.git
+    ignore = dirty
 [submodule "sources_non_forked/forms"]
 	path = sources_non_forked/forms
 	url = http://github.com/megaannum/forms.git
+    ignore = dirty
 [submodule "sources_non_forked/vimproc"]
 	path = sources_non_forked/vimproc
 	url = http://github.com/Shougo/vimproc.git
@@ -23,3 +25,4 @@
 [submodule "sources_non_forked/vimside"]
 	path = sources_non_forked/vimside
 	url = http://github.com/megaannum/vimside.git
+    ignore = dirty
