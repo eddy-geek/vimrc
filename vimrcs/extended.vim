@@ -9,6 +9,9 @@ vnoremap <C-v> "+p
 vnoremap <F2> "*y
 nnoremap <F1> "*p
 
+" Highlights tabs, trailing spaces, C-spaces, and chopped long lines
+:set list listchars=tab:··,trail:·,nbsp:·,precedes:«,extends:»
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => GUI related
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
